@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Моя сторінка</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <!-- шапка сайта-->
+    <nav class="navbar navbar-expand-md navbar-light bg-light stinky-top fixed-top">
+   <div class="container-fluid">
+        <a href="#" class="navbar-brand">Головна</a>
+     <button class="navbar-toggler" type="button" data-toggle="collapse"
+        data-target="#navbarResponsive">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+            <a  class="nav-link" href="#Pro">Про мене <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+            <a href="#Table" class="nav-link">Таблиця</a>
+        </li>
+        <!----- <li class="nav-item">
+            <a href="#" class="nav-link">Моє місто</a>
+        </li>
+         <li class="nav-item">
+            <a href="#" class="nav-link">3D</a>
+        </li> -->
+     </ul>   
+      </div>
+   </div>
+    </nav>
+    <div class="carousel slide" data-ride="carousel" id="slides">
+      <ul class="carousel-indicators">
+         <li data-target="#slides" data-slide-to="0" class="active"></li>
+         <li data-target="#slides" data-slide-to="1"></li>
+      </ul>
+      
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/slider_1.jpg">
+           <div class="carousel-caption">
+             <h1 class="display-2">My Site</h1>
+             <h3>Приємного перегляду :)</h3>
+           </div>
+        </div>
+        <div class="carousel-item ">
+          <img src="img/slider_3.jpg">
+        </div>
+      </div>
+      <div class="sim-slider-arrow-left"></div>
+      <div class="sim-slider-arrow-right"></div>
+    </div>
+    <a name="Pro"></a>
+      <hr size ="2" width ="100%" align="center" color="maroon" >
+      <!-- Info-->
+    <div class="container-fluid">
+      <!---------Pro mene-------->
+      
+   <center>
+        <font size=6 color="navy"> <b>Про мене </b> </font>  
+   </center>
+      <hr size ="2" width ="100%" align="center" color="maroon" >
+<div class="row container-fluid">
+  <div class="container-fluid">
+    <hr>
+   <div class="row">
+     <div class="col-md-3"><img id="me" class="img-fluids shadow mb-5" src="img/me.jpg" alt="me.jpg"></div>
+       <div class="col-md-5" id="myname">Ім'я : Нофенка Артем Євгенійович
+   <br><br><br><br>
+         <p class="lead text-muted"> Я народився в  місті Керч, після закінченя того як я закінчив садок, я з своїми батьками переїхав до міста Нова Одеса.
+          В цьому місті я провчився всю школу, після закінчення я поступив до Харківського Університету НТУ "ХПІ", і зараз я на другому курсі. 
+          Я люблю грати в комп'ютерні ігри, але іноді це буває настільки багато, що я забуваю Уділяти час навчанню, це все ізза COVID-19.
+       </p>
+     <div class="container-fluid">
+      <a name="table"></a>
+     </div>
+   </div>
+<div class="col-sm-1 col-sm-3"><img id="me" class="img-fluid shadow mb-5" src="img/logo.png" alt="me.jpg"></div>
+<hr size ="2" width ="100%" align="center" color="maroon" >
+</div>
+<a name="Table"></a>
+<font><blockquote class="blockquote text-center">
+  <p class="mb-0">Моя улюблена цитата</p>
+  <footer class="blockquote-footer">"З великою силою приходить велика відповідальність"<cite title="Название источника"> належить дядькові Бену - персонажу коміксу «Людина-павук»</cite></footer>
+</blockquote></font>
+<hr size ="2" width ="100%" align="center" color="maroon" >
+ <!-------------------Table--------------->
+    <div class="text-center">
+   <button type="button" class="btn btn-warning " data-toggle="collapse" data-target="#gifs">Оглянути таблицю</button>
+    <div id="gifs" class="collapse">
+      <br><br>
+      <div class=" container-fluid padding">
+        <div class="row text-center">
+          <div id=gifs class="table-responsive">
+            <table class="table">
+              <tr>
+                <th>Предмет</th>
+                <th>Оцінка</th>
+                <th>Викладач</th>
+              </tr>
+              <tr>
+                <td>ООП</td>
+                <td>4</td>
+                <td>Водка А.А.</td>
+              </tr>
+              <tr>
+                <td>Дискретна математика</td>
+                <td>3</td>
+                <td>Татарінова О.А.</td>
+              </tr>
+              <tr>
+                <td>Архітектура об-них систем</td>
+                <td>3</td>
+                <td>Ломакин А.Н.</td>
+              </tr>
+              <tr>
+                <td>Геометричне моделювання</td>
+                <td>5</td>
+                <td>Тімченко Є.В.</td>
+              </tr>
+              <tr>
+                <td>Диференційне рівняння</td>
+                <td>3</td>
+                <td>А.Б. Киркач</td>
+              </tr>
+              <tr>
+                <td>Англійська мова</td>
+                <td>3</td>
+                <td>Зиненко А.М.</td>
+              </tr>
+              <tr>
+                <td>Фізичне виховання</td>
+                <td>3</td>
+                <td>Дегтярева Л.С.</td>
+              </tr>
+              <tr>
+                <td>Право</td>
+                <td>3</td>
+                <td>Семко А.Н.</td>
+              </tr>
+            </table>
+        </div>
+     </div>
+  </div>
+   </div>
+   <br><br>
+   <hr size ="2" width ="100%" align="center" color="maroon" >
+   </div>
+   <!-------------------- Фильмы------------------->
+
+   <div class="container-fluid">
+    <h1 align="center">Мої олюблені фільми</h1>
+    <hr size ="2" width ="100%" align="center" color="maroon" >
+  <div class="row">
+      <div id="margin1" class="container">
+        <div class="row">
+          <div class="row-md-2">
+            <div class="card mb-4 shadow mb-5">
+                 <img id="sg" width="348" height="512" src="img/tn.jpeg" alt="tn">
+              <div id="borders" class="card-body">
+                  <h5 align="center">Transformers</h5>
+                <div class="d-flex justify-content-between align-items-center">
+                    <button id="link" type="button" class="btn btn-sm btn-outline-secondary"><a target="_blank" href="https://kinokrad.co/257834-transformery.html">Подробнее</a></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="margin1" class="container">
+        <div class="row">
+          <div class="row-md-2">
+            <div class="card mb-4 shadow mb-5">
+                 <img id="sg" width="348" height="512" src="img/sp.jpg" alt="sp">
+              <div id="borders" class="card-body">
+                  <h5 align="center">Spider Man Homecoming</h5>
+                <div class="d-flex justify-content-between align-items-center">
+                    <button id="link" type="button" class="btn btn-sm btn-outline-secondary"><a target="_blank" href="http://kinobase.org/film/40779-chelovek-pauk-vozvraschenie-domoj">Подробнее</a></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="margin1" class="container">
+        <div class="row">
+          <div class="row-md-2">
+            <div class="card mb-4 shadow mb-5">
+                 <img id="sg" width="348" height="512" src="img/beg.jpeg" alt="beg">
+              <div id="borders" class="card-body">
+                  <h5 align="center">Бугущий по лезвию 2049</h5>
+                <div class="d-flex justify-content-between align-items-center">
+                    <button id="link" type="button" class="btn btn-sm btn-outline-secondary"><a target="_blank" href="https://kinokrad.co/313778-beguschiy-po-lezviyus-2049-2017.html">Подробнее</a></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="margin1" class="container">
+        <div class="row">
+          <div class="row-md-2">
+            <div class="card mb-4 shadow mb-5">
+                 <img id="sg" width="348" height="512" src="img/bd.jpeg" alt="bd">
+              <div id="borders" class="card-body">
+                  <h5 align="center">Назад в будущее</h5>
+                <div class="d-flex justify-content-between align-items-center">
+                    <button id="link" type="button" class="btn btn-sm btn-outline-secondary"><a target="_blank" href="https://kinokrad.co/255614-nazad-v-buduschee-2013-onlayn-film.html">Подробнее</a></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="margin1" class="container">
+        <div class="row">
+          <div class="row-md-2">
+            <div class="card mb-4 shadow mb-5">
+                 <img id="sg" width="348" height="512" src="img/sw.jpeg" alt="sw">
+              <div id="borders" class="card-body">
+                  <h5 align="center">Star Wars</h5>
+                <div class="d-flex justify-content-between align-items-center">
+                    <button id="link" type="button" class="btn btn-sm btn-outline-secondary"><a target="_blank" href="https://kinokrad.co/280346-zvezdnye-voyny-jepizod-1-skrytaya-ugroza.html">Подробнее</a></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   <hr>
+  </div>
+  <hr size ="2" width ="100%" align="center" color="maroon" >
+  <div class="container-fluid">
+    <h1 align="center">Три слова, которыми можно меня описать</h1>
+      <p align="center" class="lead text-muted">Я знаю. Не стоит вскрывать эту тему.</p>
+    <div class="row">
+    <div align="left" class="col-md-4">
+      <div class="card mb-4 shadow mb-5">
+        <div class="card-body">
+          <h3 align="center">Bittog</h3>
+          <div class="d-flex justify-content-between align-items-center"></div>
+        </div>
+      </div>
+    </div>
+    <div align="center" class="col-md-4">
+      <div class="card mb-4 shadow mb-5">
+        <div class="card-body">
+          <h3 align="center">Осуждайка</h3>
+          <div class="d-flex justify-content-between align-items-center"></div>
+        </div>
+      </div>
+    </div>
+    <div align="right" class="col-md-4">
+      <div class="card mb-4 shadow mb-5">
+        <div class="card-body">
+          <h3 align="center">Геймер</h3>
+          <div class="d-flex justify-content-between align-items-center"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+   <hr>
+  </div>
+  <hr size ="2" width ="100%" align="center" color="maroon" >
+  <div class="container-fluid">
+    <h1 align="center">Мої настрої</h1>
+     <p align="center" class="lead text-muted">А як у тебе?</p>
+      <hr>
+   <div class="row">
+     <div class="col-md-4">
+       <div class="card mb-4 shadow mb-5">
+             <img id="mood" class="img-fluid" src="img/allef.jpg" alt="me.jpg">
+           <div class="card-body">
+              <h5 align="center">Радісний</h5>
+           </div>
+        </div>
+   </div>
+   <div class="col-md-4">
+      <div class="card mb-4 shadow mb-5">
+             <img id="mood" class="img-fluid" src="img/allef.jpg" alt="me.jpg">
+           <div class="card-body">
+              <h5 align="center">Грустный</h5>
+           </div>
+     </div>
+   </div>
+   <div class="col-md-4">
+     <div class="card mb-4 shadow mb-5">
+           <img id="mood" class="img-fluid" src="img/allef.jpg" alt="me.jpg">
+         <div class="card-body">
+            <h5 align="center">Я зараз</h5>
+         </div>
+       </div>
+     </div>
+   </div>
+    <hr>
+   </div>
+  </body>
+</html>
